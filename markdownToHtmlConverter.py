@@ -15,5 +15,6 @@ try:
     with open(fileName,'w') as outputFile:
         outputFile.write(htmlOutput)
 
-except IOError:
+except IOError: #TODO: Add other exceptions
     print("I//O Error")
+
